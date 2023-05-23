@@ -40,4 +40,8 @@
 ***
 
 ># 1.9 - Ves al repositorio remoto (en este caso GitHub) y comprueba que se haya realizado el commit correctamente y observa que pasa en el repositorio ¿Observas algo peculiar?
->>
+>>* Si nos fijamos en el repositorio remoto, tendremos que ver los mismos commits que en el local.
+>>* ![F imagen](./img/after_push.png "Comprobación de que hemos hecho el git push")
+>>* ![F imagen](./img/after_push2.png "Comprobación de que hemos hecho el git push")
+>>* Habiendo hecho este push ya podríamos ver nuestro readme.md en el navegador.
+>>* ![F imagen](./img/after_push3.png "Comprobación de que hemos hecho el git push")
