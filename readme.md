@@ -23,14 +23,19 @@
 
 ># 1.7 - Vuelve a ejecutar el comando git remote -v nuevamente y explica el porque ahora si que aparece.
 >>Ejecutamos de nuevo el comando **git remote -v** y veremos que ya nos aparece nuestro repositorio en remoto.
->>![F imagen](https://i.gyazo.com/8db44823c2ff7409a07824274c616aba.png "Líneas para asociar repositorio")
+>>![F imagen](https://i.gyazo.com/8db44823c2ff7409a07824274c616aba.png "git remote -v funciona")
 >>* Ahora nos aparece ya que hemos vinculado el repositorio local al remoto.
 
 ***
 
 ># 1.8 - Sube los cambios que hemos subido al snapshot local (commit) hacía al repositorio remoto.
 >>* Primero vamos a añadir los archivos del repositorio local a la **stage area** usando un **git add readme.md** o si tenemos más de un archivo y los queremos subir todos un **git add .**.
->>* Por siguiente tend
+>>* ![F imagen](https://i.gyazo.com/0e41e7e5465eb101b0814a834020b69d.png "Añadimos el archivo a stage area")
+>>* Luego deberemos realizar un **git commit -m "(descripción)"**.
+>>* ![F imagen](https://i.gyazo.com/d7a1da417da0c6133e3c599844cfdb71.png "Hacemos commit al archivo")
+>>* Por último debemos realizar un **git push -u origin main** para subir los cambios al repositorio remoto.
+>>* Si volvemos a realizar un **git log** podremos ver que tanto el repositorio local como el remoto están en la misma versión.
+>>* ![F imagen](./img/push.png "Comprobación de que hemos hecho el git push")
 
 ***
 
